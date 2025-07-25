@@ -1,6 +1,6 @@
 # BlazorExpress.Bulma.Docx
 
-- This library is created on top of [BlazorExpress.Bulma](https://bulma.blazorexpress.com/) for BlazorExpress component libraries documentation and demos.
+This library is created on top of [BlazorExpress.Bulma](https://bulma.blazorexpress.com/) for BlazorExpress component libraries documentation and demos.
 - It is free to use.
 - To install, use the NuGet Package Manager.
 
