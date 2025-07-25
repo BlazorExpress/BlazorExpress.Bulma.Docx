@@ -6,8 +6,9 @@
     <PackageVersion>0.1.1</PackageVersion>
     <PackageIconUrl>logo.png</PackageIconUrl>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
-    <PackageProjectUrl>https://bulma.blazorexpress.com/</PackageProjectUrl>
+    <PackageProjectUrl>https://github.com/BlazorExpress/BlazorExpress.Bulma.Docx</PackageProjectUrl>
     <RepositoryUrl>https://github.com/BlazorExpress/BlazorExpress.Bulma.Docx</RepositoryUrl>
+    <Description>This library is created on top of BlazorExpress.Bulma for BlazorExpress component libraries documentation and demos.</Description>
     <Authors>Vikram Reddy</Authors>
     <Company>Blazor Express</Company>
     <Copyright>Copyright © 2025 Blazor Express</Copyright>
