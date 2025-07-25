@@ -2,12 +2,12 @@
 
   <PropertyGroup>
     <PackageId>BlazorExpress.Bulma.Docx</PackageId>
-    <Version>0.1.0</Version>
-    <PackageVersion>0.1.0</PackageVersion>
+    <Version>0.1.1</Version>
+    <PackageVersion>0.1.1</PackageVersion>
     <PackageIconUrl>logo.png</PackageIconUrl>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <PackageProjectUrl>https://bulma.blazorexpress.com/</PackageProjectUrl>
-    <RepositoryUrl>https://github.com/BlazorExpress/BlazorExpress.Bulma</RepositoryUrl>
+    <RepositoryUrl>https://github.com/BlazorExpress/BlazorExpress.Bulma.Docx</RepositoryUrl>
     <Authors>Vikram Reddy</Authors>
     <Company>Blazor Express</Company>
     <Copyright>Copyright © 2025 Blazor Express</Copyright>
@@ -19,14 +19,15 @@
     <PackageIcon>logo.png</PackageIcon>
     <PackageReadmeFile>README.md</PackageReadmeFile>
     <RepositoryType>git</RepositoryType>
+    <PackageReleaseNotes>https://github.com/BlazorExpress/BlazorExpress.Bulma.Docx/releases</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="README.md">
+    <None Include="..\README.md">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
-    <None Include="logo.png">
+    <None Include="..\logo.png">
       <Pack>True</Pack>
       <PackagePath>\</PackagePath>
     </None>
