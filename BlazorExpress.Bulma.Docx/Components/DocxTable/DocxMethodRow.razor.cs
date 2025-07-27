@@ -6,7 +6,7 @@ public partial class DocxMethodRow<TItem> : ComponentBase
 
     private string Description => MethodInfo.GetMethodDescription();
 
-    public string ReturnType => MethodInfo.GetMethodReturnType();
+    public string ReturnType => MethodInfo.GetMethodReturnTypeName() ?? MethodInfo.GetMethodReturnType();
 
     public string MethodNameWithParameters => $"{MethodInfo.Name}({MethodParameters})";
 
