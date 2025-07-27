@@ -50,4 +50,15 @@ public static class MethodInfoExtensions
     /// <returns>string</returns>
     public static string GetMethodReturnType(this MethodInfo methodInfo) 
         => methodInfo.ReturnType.GetCSharpTypeName();
+
+    /// <summary>
+    /// Get method return type name.
+    /// </summary>
+    /// <param name="methodInfo"></param>
+    /// <returns>string</returns>
+    public static string GetMethodReturnTypeName(this MethodInfo methodInfo)
+    {
+        var parameterTypeNameAttribute = methodInfo.GetCustomAttributes(typeof(MethodReturnTypeNameAttribute), false).FirstOrDefault() as MethodReturnTypeNameAttribute;
+        return parameterTypeNameAttribute?.TypeName ?? null!;
+    }
 }
