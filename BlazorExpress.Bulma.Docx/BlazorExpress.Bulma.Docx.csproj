@@ -2,8 +2,8 @@
 
   <PropertyGroup>
     <PackageId>BlazorExpress.Bulma.Docx</PackageId>
-    <Version>0.2.1</Version>
-    <PackageVersion>0.2.1</PackageVersion>
+    <Version>0.2.2</Version>
+    <PackageVersion>0.2.2</PackageVersion>
     <PackageIconUrl>logo.png</PackageIconUrl>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/BlazorExpress/BlazorExpress.Bulma.Docx</PackageProjectUrl>
