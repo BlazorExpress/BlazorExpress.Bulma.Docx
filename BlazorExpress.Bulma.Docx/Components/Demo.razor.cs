@@ -4,13 +4,13 @@ public partial class Demo : BulmaComponentBase
 {
     #region Fields and Constants
 
-    private string? clipboardTooltipTitle = "Copy to clipboard";
+    //private string? clipboardTooltipTitle = "Copy to clipboard";
 
     private string? clipboardTooltipIconName = "bi bi-clipboard";
 
     private string? codeSnippet;
 
-    private float codeSnippetWidth;
+    //private float codeSnippetWidth;
 
     /// <summary>
     /// A reference to this component instance for use in JavaScript calls.
@@ -79,7 +79,7 @@ public partial class Demo : BulmaComponentBase
     [JSInvokable]
     public void OnCopySuccessJS()
     {
-        clipboardTooltipTitle = "Copied!";
+        //clipboardTooltipTitle = "Copied!";
         clipboardTooltipIconName = "bi bi-check2 has-text-primary";
         StateHasChanged();
     }
@@ -90,7 +90,7 @@ public partial class Demo : BulmaComponentBase
     [JSInvokable]
     public void ResetCopyStatusJS()
     {
-        clipboardTooltipTitle = "Copy to clipboard";
+        //clipboardTooltipTitle = "Copy to clipboard";
         clipboardTooltipIconName = "bi bi-clipboard";
         StateHasChanged();
     }

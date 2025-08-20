@@ -1,18 +1,16 @@
-﻿using Microsoft.VisualBasic.FileIO;
-
-namespace BlazorExpress.Bulma.Docx;
+﻿namespace BlazorExpress.Bulma.Docx;
 
 public partial class CodeChunk : BulmaComponentBase
 {
     #region Fields and Constants
 
-    private string? clipboardTooltipTitle = "Copy to clipboard";
+    //private string? clipboardTooltipTitle = "Copy to clipboard";
 
     private string? clipboardTooltipIconName = "bi bi-clipboard";
 
     private string? snippet;
 
-    private float snippetWidth;
+    //private float snippetWidth;
 
     /// <summary>
     /// A reference to this component instance for use in JavaScript calls.
@@ -84,7 +82,7 @@ public partial class CodeChunk : BulmaComponentBase
     [JSInvokable]
     public void OnCopySuccessJS()
     {
-        clipboardTooltipTitle = "Copied!";
+        //clipboardTooltipTitle = "Copied!";
         clipboardTooltipIconName = "bi bi-check2 has-text-primary";
         StateHasChanged();
     }
@@ -95,7 +93,7 @@ public partial class CodeChunk : BulmaComponentBase
     [JSInvokable]
     public void ResetCopyStatusJS()
     {
-        clipboardTooltipTitle = "Copy to clipboard";
+        //clipboardTooltipTitle = "Copy to clipboard";
         clipboardTooltipIconName = "bi bi-clipboard";
         StateHasChanged();
     }
