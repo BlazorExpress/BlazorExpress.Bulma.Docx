@@ -18,7 +18,7 @@ public static class TypeExtensions
             return null;
 
         var properties = type.GetProperties();
-        return properties?.Where(p => p.GetCustomAttributes(typeof(ParameterAttribute), false).Any() && p.Name != "AdditionalAttributes")?.OrderBy(p => p.Name);
+        return properties?.Where(p => p.GetCustomAttributes(typeof(ParameterAttribute), false).Any())?.OrderBy(p => p.Name);
     }
 
     /// <summary>
