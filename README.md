@@ -7,13 +7,13 @@ This library is created on top of [BlazorExpress.Bulma](https://bulma.blazorexpr
 Or via .NET CLI:
 
 ```cmd
-dotnet add package BlazorExpress.Bulma.Docx --version 0.1.0
+dotnet add package BlazorExpress.Bulma.Docx --version 0.3.0
 ```
 
 Or vis Package Reference:
 
 ```xml
-<PackageReference Include="BlazorExpress.Bulma.Docx" Version="0.1.0" />
+<PackageReference Include="BlazorExpress.Bulma.Docx" Version="0.3.0" />
 ```
 
 For more details, visit the [project site](https://bulma.blazorexpress.com/).
