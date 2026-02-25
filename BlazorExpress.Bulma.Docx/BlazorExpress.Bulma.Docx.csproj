@@ -2,17 +2,19 @@
 
   <PropertyGroup>
     <PackageId>BlazorExpress.Bulma.Docx</PackageId>
-    <Version>0.3.0</Version>
-    <PackageVersion>0.3.0</PackageVersion>
-    <PackageIconUrl>logo.png</PackageIconUrl>
+    <Version>0.4.0</Version>
+    <PackageVersion>0.4.0</PackageVersion>
+    
+	  <PackageIconUrl>logo.png</PackageIconUrl>
     <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
     <PackageProjectUrl>https://github.com/BlazorExpress/BlazorExpress.Bulma.Docx</PackageProjectUrl>
     <RepositoryUrl>https://github.com/BlazorExpress/BlazorExpress.Bulma.Docx</RepositoryUrl>
     <Description>This library is created on top of BlazorExpress.Bulma for BlazorExpress component libraries documentation and demos.</Description>
     <Authors>Vikram Reddy</Authors>
     <Company>Blazor Express</Company>
-    <Copyright>Copyright © 2025 Blazor Express</Copyright>
-    <TargetFrameworks>net8.0;net9.0</TargetFrameworks>
+    <Copyright>Copyright © 2026 Blazor Express</Copyright>
+	  
+	<TargetFrameworks>net8.0;net9.0;net10.0</TargetFrameworks>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <OutputType>Library</OutputType>
@@ -35,7 +37,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="BlazorExpress.Bulma" Version="0.1.1" />
+    <PackageReference Include="BlazorExpress.Bulma" Version="1.1.0" />
   </ItemGroup>
 
   <ItemGroup>
@@ -50,6 +52,10 @@
   <ItemGroup Condition="'$(TargetFramework)' == 'net9.0'">
     <PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="9.0.0" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Abstractions" Version="9.0.0" />
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(TargetFramework)' == 'net10.0'">
+  	<PackageReference Include="Microsoft.AspNetCore.Components.Web" Version="10.0.0" />
   </ItemGroup>
 
 </Project>
